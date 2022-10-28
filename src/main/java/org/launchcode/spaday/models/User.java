@@ -13,6 +13,7 @@ public class User {
     @NotBlank
     @Size(min=6)
     private String password;
+    private String verifyPassword;
 
     public User() {
 
@@ -47,5 +48,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getVerifyPassword() {
+        return verifyPassword;
+    }
+
+    public void setVerifyPassword(String verifyPassword) {
+        this.verifyPassword = verifyPassword;
     }
 }
