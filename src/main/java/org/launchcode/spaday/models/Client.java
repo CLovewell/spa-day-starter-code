@@ -43,7 +43,8 @@ public class Client {
             }
         }
         else if (skinType.equals("combination")) {
-            if (facialType.equals("Microdermabrasion") || facialType.equals("Rejuvenating") || facialType.equals("Enzyme Peel")) {
+            if (facialType.equals("Microdermabrasion") || facialType.equals("Rejuvenating")
+                    || facialType.equals("Enzyme Peel")) {
                 return true;
             }
             else {
